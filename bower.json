@@ -8,5 +8,13 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.3"
+  },
+  "overrides": {
+    "packery": {
+      "main": [
+        "dist/packery.pkgd.js"
+      ],
+      "dependencies": {}
+    }
   }
 }

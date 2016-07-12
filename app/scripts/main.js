@@ -1,1 +1,3 @@
-console.log('\'Allo \'Allo!');
+var pckry = new Packery( '.grid', {
+  itemSelector: '.grid__item'
+});
