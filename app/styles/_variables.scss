@@ -1,3 +1,10 @@
+// colours
+
+$orange:   #ff6c2c;
+$darkgrey: #414042;
+
+
+
 // breakpoints
 @mixin breakpoint($breakpoint) {
   @if $breakpoint == s {
