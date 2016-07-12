@@ -1,31 +1,38 @@
 // bower:scss
 // endbower
 
-body {
-  background: #fafafa;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #333;
+.grid {
+  overflow: hidden;
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 300px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+.grid__item {
+  position: relative;
+  float: left;
+  width: 25%;
+  height: 0;
+  padding-bottom: 25%;
+
+  // TEMP
+  &:nth-child(5n+1) { background-color: rgba(#000, .1); }
+  &:nth-child(5n+2) { background-color: rgba(#000, .2); }
+  &:nth-child(5n+3) { background-color: rgba(#000, .3); }
+  &:nth-child(5n+4) { background-color: rgba(#000, .4); }
+  &:nth-child(5n+5) { background-color: rgba(#000, .5); }
+  // TEMP
 }
 
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+.grid__item--w2 {
+  width: 50%;
+}
+
+.grid__item--h2 {
+  padding-bottom: 50%;
+}
+
+.grid__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
