@@ -2,7 +2,8 @@
   "name": "maltcreative",
   "private": true,
   "dependencies": {
-    "modernizr": "~2.8.1"
+    "modernizr": "~2.8.1",
+    "packery": "^2.1.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
