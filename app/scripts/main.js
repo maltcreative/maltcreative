@@ -1,4 +1,4 @@
 var pckry = new Packery( '.grid', {
-  itemSelector: '.grid__item',
+  itemSelector: '.item',
   gutter: 0
 });
