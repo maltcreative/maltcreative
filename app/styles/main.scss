@@ -282,9 +282,28 @@ a {
     padding-left: 2%;
     padding-bottom: 2%;
   }
+}
 
+.footer__copyright {
   small {
     color: #fff;
     font-size: 1em;
   }
+}
+
+.footer__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.instagram-link {
+  display: block;
+  margin-left: 1em;
+}
+
+.instagram-link__icon {
+  display: block;
+  width: 42px;
+  height: auto;
 }
