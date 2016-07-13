@@ -154,6 +154,9 @@ a {
   height: auto;
 
   @include breakpoint(s) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: absolute;
     top: 0;
     left: 0;
@@ -175,7 +178,7 @@ a {
   }
 
   @include breakpoint(m) {
-    font-size: 4.99999vw;
+    font-size: 5vw;
   }
 
   @include breakpoint(l) {
@@ -185,6 +188,13 @@ a {
   @include breakpoint(xl) {
     font-size: 3vw;
   }
+}
+
+.item__meta {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: .75em;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .item__heading-segment {
