@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.item--text {
+.item--primary-text {
   color: white;
   background-color: $orange;
 
@@ -160,5 +160,20 @@ h1, h2, h3, h4, h5, h6 {
 
   .item__content {
     padding: 10%;
+  }
+
+  &.item--w2 {
+    .item__content {
+      padding: 5%;
+    }
+  }
+}
+
+.item--secondary-text {
+  @extend .item--primary-text;
+  background-color: $darkgrey;
+
+  a {
+    color: $orange;
   }
 }
