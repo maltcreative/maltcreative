@@ -120,11 +120,11 @@ a {
 
 .item {
   position: relative;
-  float: left;
   width: 100%;
   height: auto;
 
   @include breakpoint(s) {
+    float: left;
     width: 50%;
     height: 0;
     padding-bottom: 50%;
