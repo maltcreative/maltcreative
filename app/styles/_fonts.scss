@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'chaparralpro';
+  src: url('../fonts/chaparralpro-regular.eot');
+  src: url('../fonts/chaparralpro-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/chaparralpro-regular.woff') format('woff'),
+       url('../fonts/chaparralpro-regular.ttf') format('truetype'),
+       url('../fonts/chaparralpro-regular.svg#chaparralpro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'brandon';
+  src: url('../fonts/brandon-bold.eot');
+  src: url('../fonts/brandon-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/brandon-bold.woff') format('woff'),
+       url('../fonts/brandon-bold.ttf') format('truetype'),
+       url('../fonts/brandon-bold.svg#brandon') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}

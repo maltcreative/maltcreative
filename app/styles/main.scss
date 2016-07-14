@@ -6,6 +6,7 @@
 // imports
 
 @import "variables";
+@import "fonts";
 
 
 
@@ -23,14 +24,14 @@ html {
 body {
   color: $darkgrey;
   font-size: 1em;
-  line-height: 1.4;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 .5em;
-  font-family: "Chaparral Pro", serif;
+  font-family: 'chaparralpro', serif;
   font-weight: normal;
   line-height: 1;
 }
@@ -167,7 +168,7 @@ a {
 
 .item__heading {
   margin: 0 0 .5em;
-  font-family: "Chaparral Pro", serif;
+  font-family: 'chaparralpro', serif;
   font-size: 15vw;
   font-weight: normal;
   line-height: 1;
@@ -191,10 +192,27 @@ a {
 }
 
 .item__meta {
-  font-family: "Brandon Grotesque", sans-serif;
-  font-size: .75em;
+  font-family: 'brandon', sans-serif;
+  font-size: 3.75vw;
   font-weight: bold;
+  letter-spacing: .3em;
   text-transform: uppercase;
+
+  @include breakpoint(s) {
+    font-size: 1.875vw;
+  }
+
+  @include breakpoint(m) {
+    font-size: 1.25vw;
+  }
+
+  @include breakpoint(l) {
+    font-size: .9375vw;
+  }
+
+  @include breakpoint(xl) {
+    font-size: .75vw;
+  }
 }
 
 .item__heading-segment {
@@ -284,7 +302,7 @@ a {
 .footer {
   padding: 30% 10% 10%;
   color: #979797;
-  font-family: "Chaparral Pro", serif;
+  font-family: 'chaparralpro', serif;
   background-color: $darkgrey;
 
   @include breakpoint(s) {
