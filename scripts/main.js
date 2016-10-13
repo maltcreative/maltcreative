@@ -1,0 +1,1 @@
+"use strict";var mq=matchMedia("(min-width: 400px)"),pckry,pckryGrid=document.querySelector(".grid"),pckryOptions={itemSelector:".item",gutter:0};mq.matches&&(pckry=new Packery(pckryGrid,pckryOptions)),mq.addListener(function(r){r.matches?pckry=new Packery(pckryGrid,pckryOptions):pckry.destroy()});
